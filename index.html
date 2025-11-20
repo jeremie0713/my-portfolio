@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png?v=1" type="image/x-icon">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png?v=1">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png?v=1">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive portfolio website Anid - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <div class="blob-animate"></div>
+
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Jeremie</a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#about" class="nav__link">About Me</a>
+                  </li>
+
+                  <li>
+                     <a href="#experience" class="nav__link">Experience</a>
+                  </li>
+
+                  <li>
+                     <a href="#skills" class="nav__link">Skills</a>
+                  </li>
+
+                  <li>
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav__link">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!-- CUSTOM CURSOR -->
+          <div class="cursor"></div>
+         
+         <!--==================== HOME ====================-->
+         <section class="home section">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h3 class="home__greeting">Hello, I'm</h3>
+                  <h1 class="home__name">Jeremie <br> Deuna</h1>
+               </div>
+
+               <div class="home__image">
+                  <div class="blob-animate"></div>
+                  <img src="assets/img/home-perfil.png" alt="image" class="home__perfil">
+               </div>
+
+               <div class="home__info">
+                  <h3 class="home__split">Creative</h3>
+                  <h2 class="home__profession-1">Mobile Developer</h2>
+                  <h2 class="home__profession-2">& UI Enthusiast</h2>
+               </div>
+
+               <div class="home__social">
+                  <a href="https://www.linkedin.com/in/jeremie-deuna-a5506a389" target="_blank" rel="noopener" class="home__social-link" title="LinkedIn Profile">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+
+                  <a href="https://github.com/jeremie0713" target="_blank" rel="noopener" class="home__social-link" title="GitHub Profile">
+                     <i class="ri-github-line"></i>
+                  </a>
+
+               </div>
+               <a href="assets/pdf/Anid-Cv.pdf" download target="_blank" class="home__cv">
+                  RESUME <i class="ri-file-list-2-line"></i></a>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__shadow"></div>
+
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">
+                     <span>Mobile Development</span> <br> With Passion
+                  </h2>
+
+                  <p class="about__description">
+                     I'm a <b>mobile app developer</b> passionate about building 
+                     clean and user-friendly digital experiences using 
+                     <b>Flutter, Dart, and Firebase.</b> With a background in 
+                     computer science and a strong foundation in programming, 
+                     I love exploring new technologies and turning ideas into 
+                     interactive applications. I'm currently expanding my 
+                     <b>web development skills</b> while continuously learning 
+                     and creating through code.
+                  </p>
+
+                  <a href="assets/pdf/Anid-Cv.pdf" download target="_blank" class="button">
+                     Resume <i class="ri-file-list-2-line"></i>
+                  </a>
+               </div>
+
+               <div class="about__image">
+                  <div class="blob-animate"></div>
+                  <div class="blob-animate"></div>
+                  <img src="assets/img/about-perfil.png" alt="image" class="about__perfil">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== experience ====================-->
+         <section class="experience section" id="experience">
+            <h2 class="section__title">
+               <span>My</span> 
+               <br> Experience
+            </h2>
+
+            <div class="experience__container container grid">
+               <div class="experience__tabs">
+                  <!-- Button Experience -->
+                   <button class="experience__button experience-active" data-target="#experience-content">
+                      Experience <i class="ri-briefcase-3-line"></i>
+                   </button>
+
+                  <!-- Button Education -->
+                   <button class="experience__button" data-target="#education-content">
+                      Education <i class="ri-graduation-cap-line"></i>
+                   </button>
+               </div>
+
+               <div class="experience__area">
+                  <div class="experience__line"></div>
+
+                  <!-- Experience Content -->
+                  <div class="experience__content experience-active"  data-content id="experience-content">
+                     <div class="experience__card">
+                        <div class="experience__data">
+                           <div>
+                              <h1 class="experience__title">Mobile App <br> Developer (Freelance)</h1>
+                              <h3 class="experience__subtitle">Project-Based | Philippines</h3>
+                           </div>
+
+                           <h2 class="experience__year">2023</h2>
+                        </div>
+
+                        <p class="experience__description">
+                           I have gained experience on mobile app projects using Flutter and Firebase in a freelance, project-based setup.  
+                           I handled UI development tasks, implemented features based on specific requirements, and collaborated  
+                           closely with a more experienced developer who guided me through the process.  
+                           This experience helped me apply what I learned in school to real-world situations — from  
+                           debugging and testing to understanding how apps are built from start to finish.  
+                           It also taught me how to follow instructions, communicate clearly, and stay responsible for the tasks assigned to me.</p>
+                     </div>
+                  </div>
+
+                  <!-- Education Content -->
+                  <div class="experience__content" data-content id="education-content">
+                     <div class="experience__card">
+                        <div class="experience__data">
+                           <div>
+                              <h1 class="experience__title">BS Computer Science <br> (cum laude)</h1>
+                              <h3 class="experience__subtitle">Arellano University</h3>
+                           </div>
+
+                           <h2 class="experience__year">2023</h2>
+                        </div>
+
+                        <p class="experience__description">
+                           Completed my degree with honors (cum laude).  
+                           Throughout my college years, I gained experience on several academic projects, especially in mobile app development,  
+                           where I applied what we learned in class to practical group experience.  
+                           I consistently took responsibility for my tasks during group projects and made sure to contribute  
+                           to both the technical and documentation aspects when needed.  
+                           During my studies, I also gained a solid foundation in core IT skills such as basic programming,  
+                           computer system servicing, and using productivity software like Microsoft Word, Excel, and PowerPoint.  
+                           These experiences taught me how to experience well in a team, meet deadlines, and stay focused  
+                           on delivering quality experience even under pressure.</p>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+         </section>
+
+         <!--==================== SKILLS ====================-->
+         <section class="skills section" id="skills">
+            <h2 class="section__title">My <span>Skills</span></h2>
+
+            <div class="skills__container container grid">
+               <!--Mobile App Development-->
+               <div class="skills__card skills-open">
+                  <div class="blob"></div>
+                  <div class="skills__data">
+                     <h2 class="skills__title">Mobile App Development</h2>
+                     <p class="skills__description">
+                        I build mobile apps using Flutter and Firebase. 
+                        I’ve developed project-based apps with features 
+                        like user authentication, scheduling, media 
+                        uploads, and basic UI/UX design. I enjoy creating 
+                        clean, functional interfaces and learning better 
+                        ways to improve performance.
+                     </p>
+                  </div>
+
+                  <div class="skills__info">
+                     <h3 class="skills__subtitle">Tools & Technologies</h3>
+                     <ul class="skills__list">
+                        <li class="skills__item">Flutter</li>
+                        <li class="skills__item">Dart</li>
+                        <li class="skills__item">Firebase</li>
+                        <li class="skills__item">Android Studio</li>
+                        <li class="skills__item">Visual Studio Code</li>
+                        <li class="skills__item">GitHub</li>
+                     </ul>
+                  </div>
+
+                  <button class="skills__button" title="Toggle Mobile App Development skills">
+                    <i class="ri-arrow-down-s-line"></i>
+                  </button>
+               </div>
+
+               <!--Web Development (Basic)-->
+               <div class="skills__card skills-close">
+                  <div class="blob blob-2"></div>
+                  <div class="skills__data">
+                     <h2 class="skills__title">Web Development (Basic)</h2>
+                     <p class="skills__description">
+                        I have basic knowledge of web development using HTML and CSS. 
+                        I’ve used these to build personal websites and understand 
+                        how web layouts and responsiveness experience. I’m continuing to 
+                        improve my skills in this area.
+                     </p>
+                  </div>
+
+                  <div class="skills__info">
+                     <h3 class="skills__subtitle">Tools & Technologies</h3>
+                     <ul class="skills__list">
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">Canva</li>
+                     </ul>
+                  </div>
+
+                  <button class="skills__button" title="Toggle Web Development (Basic) skills">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </button>
+               </div>
+
+               <!--Design & Editing-->
+               <div class="skills__card skills-close">
+                  <div class="blob blob-3"></div>
+                  <div class="skills__data">
+                     <h2 class="skills__title">Design & Editing</h2>
+                     <p class="skills__description">
+                        I use tools like Photoshop, Canva, and Filmora for basic 
+                        editing of presentations, app graphics, and demo videos. 
+                        I enjoy experienceing with visuals and making content more 
+                        engaging and accessible.
+                     </p>
+                  </div>
+
+                  <div class="skills__info">
+                     <h3 class="skills__subtitle">Tools & Technologies</h3>
+                     <ul class="skills__list">
+                        <li class="skills__item">Adobe Photoshop</li>
+                        <li class="skills__item">Canva</li>
+                        <li class="skills__item">Wondershare Filmora</li>
+                     </ul>
+                  </div>
+
+                  <button class="skills__button" title="Toggle Design & Editing skills">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </button>
+               </div>
+
+               <!--Programming Languages (Basic - Intermediate)-->
+               <div class="skills__card skills-close">
+                  <div class="blob blob-4"></div>
+                  <div class="skills__data">
+                     <h2 class="skills__title">Programming Languages (Basic - Intermediate)</h2>
+                     <p class="skills__description">
+                        I’ve studied multiple programming languages as part of my 
+                        computer science degree. I’m most confident with Dart, 
+                        Java, and C#, while continuing to practice Python and C++
+                        in small personal tasks and projects.
+                     </p>
+                  </div>
+
+                  <div class="skills__info">
+                     <h3 class="skills__subtitle">Tools & Technologies</h3>
+                     <ul class="skills__list">
+                        <li class="skills__item">Dart</li>
+                        <li class="skills__item">Java</li>
+                        <li class="skills__item">C</li>
+                        <li class="skills__item">C#</li>
+                        <li class="skills__item">C++</li>
+                        <li class="skills__item">Python</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">PHP</li>
+                     </ul>
+                  </div>
+
+                  <button class="skills__button" title="Toggle Programming Languages (Basic - Intermediate) skills">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </button>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title">
+               I Make Incredible <br>
+               <span>Projects</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <div class="projects__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <!----------project 1----------->
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                        <div class="projects__number">
+                           <h1>01</h1>
+                           <h3>Web</h3>
+                        </div>
+
+                        <div class="projects__data">
+                           <h1 class="projects__title">Barbershop <br> website</h1>
+                           <p class="projects__subtitle">Technologies used</p>
+                           <p class="projects__description">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+                        </div>
+
+                        <div class="projects__image">
+                           <img src="assets/img/projects-1.png" alt="image" class="projects__img">
+                           <a href="#" target="_blank" class="projects__button">
+                              <i class="ri-arrow-right-up-long-line"></i>
+                           </a>
+                        </div>
+                     </article>
+                     <!----------project 2----------->
+                     <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                        <div class="projects__number">
+                           <h1>02</h1>
+                           <h3>Design</h3>
+                        </div>
+                     
+                        <div class="projects__data">
+                           <h1 class="projects__title">Interface Design <br> For Ice Cream Shop</h1>
+                           <p class="projects__subtitle">Technologies used</p>
+                           <p class="projects__description">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+                        </div>
+
+                        <div class="projects__image">
+                           <img src="assets/img/projects-2.png" alt="image" class="projects__img">
+                           <a href="#" target="_blank" class="projects__button">
+                              <i class="ri-arrow-right-up-long-line"></i>
+                           </a>
+                        </div>
+                     </article>
+                     <!----------project 3----------->
+                     <!-- <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                        <div class="projects__number">
+                           <h1>03</h1>
+                           <h3>Web</h3>
+                        </div>
+
+                        <div class="projects__data">
+                           <h1 class="projects__title">SEO For Coffee <br> Websites</h1>
+                           <p class="projects__subtitle">Technologies used</p>
+                           <p class="projects__description">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+                        </div>
+
+                        <div class="projects__image">
+                           <img src="assets/img/projects-3.png" alt="image" class="projects__img">
+                           <a href="#" target="_blank" class="projects__button">
+                              <i class="ri-arrow-right-up-long-line"></i>
+                           </a>
+                        </div>
+                     </article> -->
+                     <!----------project 4----------->
+                     <!-- <article class="projects__card swiper-slide">
+                        <div class="blob"></div>
+
+                        <div class="projects__number">
+                           <h1>04</h1>
+                           <h3>Design</h3>
+                        </div>
+
+                        <div class="projects__data">
+                           <h1 class="projects__title">Web Design <br> For Restaurant</h1>
+                           <p class="projects__subtitle">Technologies used</p>
+                           <p class="projects__description">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+                        </div>
+
+                        <div class="projects__image">
+                           <img src="assets/img/projects-4.png" alt="image" class="projects__img">
+                           <a href="#" target="_blank" class="projects__button">
+                              <i class="ri-arrow-right-up-line"></i>
+                           </a>
+                        </div>
+                     </article> -->
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+               </div>
+            </div>
+            
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+               <div class="contact__data">
+                  <h2 class="section__title">Get in Touch</h2>
+
+                  <p class="contact__description">
+                     Feel free to reach out if you have any questions, collaboration ideas, or just want to connect!
+                  </p>
+
+                  <button class="contact__button button" id="contact-btn">
+                     Copy Email <i class="ri-file-copy-line"></i>
+                  </button>
+
+                  <span class="contact__email" id="contact-email">jeremiedeuna0713@gmail.com</span>
+               </div>
+
+               <div class="contact__content grid">
+                  <div class="contact__info grid">
+                     <div>
+                        <h3 class="contact__title">Email</h3>
+                        <address class="contact__address">jeremiedeuna0713@gmail.com</address>
+                     </div>
+
+                     <div>
+                        <h3 class="contact__title">Location</h3>
+                        <address class="contact__address">Bacoor, Cavite, Philippines</address>
+                     </div>
+                  </div>
+
+                  <div class="contact__social">
+                     <h3 class="contact__title">Social Media</h3>
+                     <div class="contact__links">
+                        <a href="https://www.linkedin.com/in/jeremie-deuna-a5506a389" target="_blank" rel="noopener" class="contact__link" title="LinkedIn Profile">
+                           LinkedIn <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+
+                        <a href="https://github.com/jeremie0713" target="_blank" rel="noopener" class="contact__link" title="GitHub Profile">
+                           GitHub <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="contact__write">
+                     <h3 class="contact__title">Let's Connect</h3>
+                     <div class="contact__links">
+                        <a href="mailto:jeremiedeuna@outlook.com" target="_blank" class="contact__link">
+                           Outlook <i class="ri-arrow-right-up-long-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer grid">
+         <div class="blob-animate"></div>
+
+         <div class="footer__copy">
+            <span>&#169; Jeremie Deuna. All rights reserved</span>
+         </div>
+
+         <div class="footer__year"><span id="footer-year"></span></div>
+      </footer>
+      
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== ANIME JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
